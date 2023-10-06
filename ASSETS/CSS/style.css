@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #c5aaf7, #6119cc, #25fff4af);
+    width: 96vw;
+    height: 90.6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2rem;
+}
+
+.relog {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 210px;
+    width: 640px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, .6);
+}
+
+.relog div {
+    height: 150px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relog span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relog span.tempo {
+    font-size: 15px;
+}
+
+
+
+#cronometro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    background: rgba(5, 5, 5, 10);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 8px;
+}
+
+#tempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(5, 5, 5, .8);
+    width: 250px;
+    height: 250px;
+    border: 3px solid #9f6bff;
+    border-radius: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: none;
+    color: #242222;
+    background-color: #d5defc;
+    transition: background-color .2s ease-in;
+    cursor: pointer;
+}
+
+#actions button:hover {
+    background-color: #b2a3ec;
+}
+
+#marks-list {
+    color: #ffffff;
+}
+
+#marks-list p:first-child {
+    margin-top: 1.5rem;
+} 

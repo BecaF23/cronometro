@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ASSETS/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Relógio e cronometro</title>
+</head>
+<body>
+<div class="relog">
+        <div>
+            <span id="days">00</span>
+            <span class="tempo">Dias</span>
+        </div>
+        <div>
+            <span id="hr">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+        <div>
+            <span id="min">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+        <div>
+            <span id="sec">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+
+    <br>
+        
+    <div id="cronometro">
+        <h2 id="tempo">00:00:00:000</h2>
+
+        <div id="actions">
+            <button id="reset"><i class="fa-solid fa-redo"></i></button>
+            <button id="power" action="start"><i class="fa-solid fa-circle-play"></i></button>
+            <button id="mark"><i class="fa-solid fa-circle-stop"></i></button>
+        </div>
+
+        <div id="marks-list"></div>
+    </div>
+
+    <script src="ASSETS/JAVASCRIPT/script.js"></script>
+
+</body>
+</html>
